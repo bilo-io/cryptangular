@@ -1,0 +1,40 @@
+.explore-container {
+  // position: relative;
+  width: 100%;
+  height: 100vh;
+  // background-color: #fff000;
+  flex-grow: grow;
+  padding: 1rem;
+}
+
+.search {
+  width: calc(100% - 2rem);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #77777788;
+
+  &:focus {
+    border-color: #323FFF88;
+  }
+}
+
+.search-results {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  overflow-y: auto;
+
+
+}
+
+.search-result {
+  width: calc(100% - 0rem);
+  background-color: #323FFF88;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem;
+
+  margin: {
+    bottom: 0.25rem;
+  }
+}

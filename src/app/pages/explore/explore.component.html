@@ -1,0 +1,18 @@
+<div class="explore-container" style="width: 100%">
+  <input
+    id="search-input"
+    class="search"
+    (keyup)="onKey($event)"
+    aria-label="search-input"
+    placeholder="Search..."
+  />
+
+  <div class="search-results">
+    <div
+    class="search-result"
+    *ngFor="let crypto of cryptoCurrencies | appFilter: query"
+    (click)="handleClick(crypto)">
+    {{crypto.name}}
+  </div>
+</div>
+</div>

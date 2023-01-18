@@ -1,0 +1,27 @@
+.app-navbar {
+  width: 12rem;
+  background-color: #323FFF;
+  color: #FFF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+  .app-navbar-item {
+    height: 3rem;
+    line-height: 3rem;
+    cursor: pointer;
+
+    padding: {
+      left: 1rem;
+      right: 1rem;
+    }
+
+    ;
+
+    &:hover {
+      background-color: #FFFFFF22;
+    }
+  }
+}
