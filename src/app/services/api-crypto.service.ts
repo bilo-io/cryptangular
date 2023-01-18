@@ -71,7 +71,7 @@ export class ApiCryptoService {
     // TODO: make parameters configurable from UI
     // - vs_currency (fiat)
     // - days
-    return this.http.get<any>(`${this.endpoint}/coins/${id}/market_chart?vs_currency=usd&days=7`)
+    return this.http.get<any>(`${this.endpoint}/coins/${id}/market_chart?vs_currency=usd&days=365`)
   }
 
   httpError(error: any) {

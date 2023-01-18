@@ -1,1 +1,13 @@
-<p>details works!</p>
+<div>
+  <h2>{{cryptoSummary}}</h2>
+  <canvas
+    baseChart
+    width="600"
+    height="400"
+    [data]="lineChartData"
+    [options]="lineChartOptions"
+    [type]="'line'"
+  >
+  </canvas>
+</div>
+
